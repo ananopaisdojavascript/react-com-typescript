@@ -5,8 +5,8 @@ const getCalendars = async () => {
   return calendars
 }
 
-const getEvents = async () => {
-  const events = await httpService.read("/event")
+const getEvents = async (startDate: string, endDate: string) => {
+  const events = await httpService.read(`/event?date_gte=${startDate}&date_lte=${endDate}&_sort=date,time`)
   return events
 }
 

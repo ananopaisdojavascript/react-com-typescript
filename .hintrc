@@ -3,6 +3,8 @@
     "development"
   ],
   "hints": {
-    "typescript-config/is-valid": "off"
+    "typescript-config/is-valid": "off",
+    "button-type": "off",
+    "no-inline-styles": "off"
   }
 }

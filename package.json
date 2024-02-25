@@ -13,9 +13,11 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tss-react": "^4.9.4"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",

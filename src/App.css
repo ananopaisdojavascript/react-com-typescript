@@ -1,0 +1,15 @@
+.event {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.dayOfMonth {
+  font-weight: 500;
+  margin-bottom: 4px;
+}

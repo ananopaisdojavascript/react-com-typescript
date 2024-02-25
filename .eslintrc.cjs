@@ -16,6 +16,10 @@ module.exports = {
     ],
     "no-useless-catch": "off",
     "no-undef": "off",
-    "@typescript-eslint/no-unused-vars": "off"
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-constant-condition": "off",
+    "button-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "prefer-const": "off"
   },
 }
